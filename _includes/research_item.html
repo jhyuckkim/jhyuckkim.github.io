@@ -1,0 +1,29 @@
+{% assign item = include.item %}
+{% if include.kind == "blog" %}
+  {% assign primary_url = item.blog %}
+{% else %}
+  {% assign primary_url = item.paper_pdf %}
+{% endif %}
+<div class="paper research-item">
+  <p class="title">
+    <b>{% if primary_url %}<a class="paper-title-link" {% include link_attributes.html url=primary_url %}>{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}</b>
+  </p>
+  {% if item.authors %}<p>{{ item.authors }}</p>{% endif %}
+  <p class="research-venue">
+    {% if include.kind == "blog" %}{{ item.venue }}{% else %}<i>{{ item.venue }}</i>{% endif %}
+    {% assign link_fields = "code,twitter,huggingface,demo,project_page,slides,poster,video" | split: "," %}
+    {% assign link_labels = "Code,𝕏,Model,Demo,Project,Slides,Poster,Video" | split: "," %}
+    {% capture resource_links %}
+    {% for field in link_fields %}
+      {% if item[field] %}
+        {% assign resource_url = item[field] %}
+        <a class="button research-link" {% include link_attributes.html url=resource_url %}>{{ link_labels[forloop.index0] }}</a>
+      {% endif %}
+    {% endfor %}
+    {% endcapture %}
+    {% assign resource_links = resource_links | strip %}
+    {% if resource_links != "" %}<span class="research-links">{{ resource_links }}</span>{% endif %}
+  </p>
+  {% assign extra_venues = "venue1,venue2,venue3,venue4,venue5" | split: "," %}
+  {% for field in extra_venues %}{% if item[field] %}<p>{{ item[field] }}</p>{% endif %}{% endfor %}
+</div>
