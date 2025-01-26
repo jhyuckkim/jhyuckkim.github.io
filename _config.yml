@@ -1,0 +1,12 @@
+source:      .
+destination: ./_site
+includes:    ./_includes
+url: "https://jhyuckkim.github.io"
+baseurl: ""
+description: "Junhyuck Kim is an AI Research Scientist at KRAFTON working on LLM efficiency, post-training, and agents."
+exclude:
+  - README.md
+
+collections:
+  projects:
+    output: true

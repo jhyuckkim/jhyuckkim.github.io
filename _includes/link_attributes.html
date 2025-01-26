@@ -1,0 +1,10 @@
+{%- assign link_url = include.url -%}
+{%- assign first_character = link_url | slice: 0, 1 -%}
+{%- assign first_two = link_url | slice: 0, 2 -%}
+{%- if link_url contains '://' or first_two == '//' -%}
+href="{{ link_url | escape }}" target="_blank" rel="noopener noreferrer"
+{%- elsif first_character == '/' -%}
+href="{{ link_url | relative_url | escape }}"
+{%- else -%}
+href="{{ link_url | escape }}"
+{%- endif -%}
