@@ -1,0 +1,99 @@
+---
+layout: default
+---
+<!-- ========== About ========== -->
+<div class="docs-section" id="about">
+  <h2 class="section-title">About</h2>
+    <p>
+      I research and train large language models at
+      <a href="https://www.krafton.ai/" target="_blank" rel="noopener noreferrer">KRAFTON AI</a>, led by
+      <a href="https://kangwooklee.com/" target="_blank" rel="noopener noreferrer">Kangwook Lee</a>,
+      and collaborate closely with
+      <a href="https://papail.io/" target="_blank" rel="noopener noreferrer">Dimitris Papailiopoulos</a>.
+      Currently, I am working on both model architectures and reinforcement learning for the Raon model family (yes, we are a small team!).
+    </p>
+    <p>
+      I am particularly interested in <strong style="color: #3E7349;">efficiency</strong>, with the long-term goal of building AI systems that are useful in practice, even under tight resource constraints.
+      To this end, I work on reducing the memory footprint of inference and reasoning, as well as the computational cost of training.
+      More recently, I have been exploring efficient agentic systems for automated research.
+    </p>
+    <p>
+      Previously, I completed my master’s at Cambridge, where I worked in the
+      <a href="https://mlg.eng.cam.ac.uk/" target="_blank" rel="noopener noreferrer">Machine Learning Group</a>
+      under the supervision of
+      <a href="https://rich-turner-group.github.io/" target="_blank" rel="noopener noreferrer">Richard Turner</a>.
+    </p>
+</div>
+
+<!-- ========== NEWS ========== -->
+<div class="docs-section" id="news">
+  <h2 class="section-title">News <span aria-hidden="true">🎉</span></h2>
+  <ul class="news-list">
+    <li>
+      <time class="news-date" datetime="2026-10">Oct. 2026</time>
+      <span>We released <strong class="news-highlight">Raon-1 mini preview</strong>, a 30B-A4B MoE language model, to which I contributed through architecture design and reinforcement learning.
+        <span class="research-links">
+          <a class="button research-link" href="https://x.com/Krafton_AI/status/2112772568776339709?s=20" target="_blank" rel="noopener noreferrer" aria-label="Raon-1 mini preview announcement on X">𝕏</a>
+          <a class="button research-link" href="https://huggingface.co/KRAFTON/Raon-1-mini-preview" target="_blank" rel="noopener noreferrer">Model</a>
+          <a class="button research-link" href="https://raon-mini.krafton.ai/en" target="_blank" rel="noopener noreferrer">Try Now</a>
+        </span>
+      </span>
+    </li>
+    <li>
+      <time class="news-date" datetime="2026-09">Sep. 2026</time>
+      <span>Our paper, <a href="https://arxiv.org/abs/2605.28207" target="_blank" rel="noopener noreferrer">Pruning and Distilling Mixture-of-Experts into Dense Language Models</a>, was accepted to NeurIPS 2026 as an <strong class="news-highlight">Oral</strong> presentation. I’ll be presenting this work in Sydney!</span>
+    </li>
+  </ul>
+</div>
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h2 class="section-title">Publications</h2>
+  <p class="contribution-note">(* Equal contribution, † Core contribution)</p>
+  <div id="papers-selected">
+    {% for paper in site.data.publications.papers %}
+      {% include research_item.html item=paper kind="paper" %}
+    {% endfor %}
+  </div>
+</div>
+
+<!-- ========== BLOG POSTS ========== -->
+<div class="docs-section" id="blogposts">
+  <h2 class="section-title">Blog Posts</h2>
+  <div id="blogposts-list">
+      {% for post in site.data.publications.blogposts %}
+        {% include research_item.html item=post kind="blog" %}
+      {% endfor %}
+  </div>
+</div>
+
+<!-- ========== Experience ========== -->
+<div class="docs-section" id="experience">
+  <h2 class="section-title">Experience</h2>
+        <div class="paper">
+          <p class="title"><b>KRAFTON</b></p>
+          <p class="career-row"><span>AI Research Scientist</span><span class="career-date">Jul. 2024 – Present</span></p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>KRAFTON</b></p>
+          <p class="career-row"><span>AI Research Intern</span><span class="career-date">Jun. 2023 – Sep. 2023</span></p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>Microsoft</b></p>
+          <p class="career-row"><span>Software Engineer Intern</span><span class="career-date">Jun. 2022 – Aug. 2022</span></p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>Animo HealthTech</b></p>
+          <p class="career-row"><span>Data Scientist Intern</span><span class="career-date">Nov. 2021 – Apr. 2022</span></p>
+        </div>
+</div>
+
+<!-- ========== Education ========== -->
+<div class="docs-section" id="education">
+  <h2 class="section-title">Education</h2>
+        <div class="paper">
+          <p class="title"><b>University of Cambridge</b></p>
+          <p class="career-row"><span>MEng, Information and Computer Engineering</span><span class="career-date">Oct. 2023 – Jun. 2024</span></p>
+          <p class="career-row"><span>BA, Information and Computer Engineering</span><span class="career-date">Oct. 2020 – Jun. 2023</span></p>
+        </div>
+</div>
