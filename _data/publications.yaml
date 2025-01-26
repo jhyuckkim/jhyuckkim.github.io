@@ -1,0 +1,12 @@
+papers:
+  - title: "Lexico: Extreme KV Cache Compression via Sparse Coding over Universal Dictionaries"
+    authors: "<b><u>Junhyuck Kim</u></b>, Jongho Park, Jaewoong Cho, Dimitris Papailiopoulos"
+    venue: "Preprint, 2024"
+    paper_pdf: "https://arxiv.org/abs/2412.08890"
+    selected: y
+
+  - title: "Translation Equivariant Transformer Neural Processes"
+    authors: "Matthew Ashman, Cristiana Diaconu, <b><u>Junhyuck Kim</u></b>, Lakee Sivaraya, Stratis Markou, James Requeima, Wessel P. Bruinsma, Richard E. Turner"
+    venue: "International Conference on Machine Learning (<b><u>ICML</u></b>),2024"
+    paper_pdf: "https://arxiv.org/abs/2406.12409"
+    selected: y
