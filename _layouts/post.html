@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="docs-section post-content">
+  <h1 class="post-title">{{ page.title }}</h1>
+  {% if page.subtitle %}
+    <p class="post-subtitle">{{ page.subtitle }}</p>
+  {% endif %}
+
+  {{ content }}
+
+  <nav class="post-navigation" aria-label="Post navigation">
+    <a href="{{ '/' | relative_url }}">&larr; Back to home</a>
+  </nav>
+</article>

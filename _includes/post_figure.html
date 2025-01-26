@@ -1,0 +1,6 @@
+{% assign figure_url = '/assets/blog/precision-mode-selection/' | append: include.file | relative_url %}
+<figure class="post-figure{% if include.compact %} post-figure--compact{% endif %}">
+  <a class="post-figure-link" href="{{ figure_url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ include.alt | escape }} (opens full-size image in a new tab)" title="Open full-size image in a new tab">
+    <img src="{{ figure_url }}" alt="{{ include.alt | escape }}" width="{{ include.width }}" height="{{ include.height }}" loading="lazy" decoding="async">
+  </a>
+</figure>
