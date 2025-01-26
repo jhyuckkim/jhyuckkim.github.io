@@ -1,0 +1,79 @@
+papers:
+  - title: "Pruning and Distilling Mixture-of-Experts into Dense Language Models"
+    authors: "<b>Junhyuck Kim</b>, Jihun Yun, Haechan Kim, Gyeongman Kim, Joonghyun Bae, Jaewoong Cho"
+    venue: "Preprint, 2026"
+    paper_pdf: "https://arxiv.org/abs/2605.28207"
+    code: "https://github.com/krafton-ai/moe-to-dense"
+    twitter: "https://x.com/jhyuckkim/status/2064342147219030266"
+    selected: y
+
+  - title: "Raon-Speech Technical Report"
+    authors: "KRAFTON"
+    venue: "Technical Report, 2026"
+    paper_pdf: "https://arxiv.org/abs/2605.23912"
+    code: "https://github.com/krafton-ai/Raon-Speech"
+    huggingface: "https://huggingface.co/collections/KRAFTON/raon"
+    demo: "https://raon.krafton.ai/"
+    twitter: "https://x.com/Kangwook_Lee/status/2040212804473688492"
+    selected: y
+
+  - title: "Is the Importance Ratio Necessary for Stable Reinforcement Learning in LLMs?"
+    authors: "Shuibai Zhang*, <b>Junhyuck Kim*</b>, Gyeongman Kim, Jaewoong Cho"
+    venue: "ICLR 2026 SPOT Workshop"
+    paper_pdf: "https://openreview.net/pdf?id=eiOwyAa2O1"
+    selected: y
+
+  - title: "Not All Bits Are Equal: Scale-Dependent Memory Optimization Strategies for Reasoning Models"
+    authors: "<b>Junhyuck Kim</b>, Ethan Ewer, Taehong Moon, Jongho Park, Dimitris Papailiopoulos"
+    venue: "ICLR 2026; NeurIPS 2025 ER Workshop <span style='color: #3E7349; font-weight: bold;'>Spotlight</span>"
+    paper_pdf: "https://arxiv.org/abs/2510.10964"
+    code: "https://github.com/krafton-ai/not-all-bits-are-equal"
+    twitter: "https://x.com/DimitrisPapail/status/1978108550854382052"
+    selected: y
+
+  - title: "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games"
+    authors: "Dongmin Park*†, Minkyu Kim*†, Beongjun Choi*†, <b>Junhyuck Kim†</b>, Keon Lee†, Jonghyun Lee†, Inkyu Park†, Byeong-Uk Lee†, Jaeyoung Hwang†, Jaewoo Ahn†, Ameya S. Mahabaleshwarkar, Bilal Kartal, Pritam Biswas, Yoshi Suhara, Kangwook Lee, Jaewoong Cho"
+    venue: "ICLR 2026; EMNLP 2025 Wordplay Workshop <span style='color: #3E7349; font-weight: bold;'>Outstanding Paper</span>"
+    paper_pdf: "https://arxiv.org/abs/2506.03610"
+    code: "https://github.com/krafton-ai/Orak"
+    twitter: "https://x.com/Kangwook_Lee/status/1930654918576111999"
+    selected: y
+
+  - title: "Alignment as Distribution Learning: Your Preference Model is Explicitly a Language Model"
+    authors: "Jihun Yun*, Juno Kim*, Jongho Park, <b>Junhyuck Kim</b>, Jongha Jon Ryu, Jaewoong Cho, Kwang-Sung Jun"
+    venue: "ICML 2025 MoFA Workshop"
+    paper_pdf: "https://arxiv.org/abs/2506.01523"
+    selected: y
+
+  - title: "Lexico: Extreme KV Cache Compression via Sparse Coding over Universal Dictionaries"
+    authors: "<b>Junhyuck Kim</b>, Jongho Park, Jaewoong Cho, Dimitris Papailiopoulos"
+    venue: "ICML 2025; ICLR 2025 SLLM Workshop <span style='color: #3E7349; font-weight: bold;'>Spotlight</span>"
+    paper_pdf: "https://arxiv.org/abs/2412.08890"
+    code: "https://github.com/krafton-ai/lexico"
+    twitter: "https://x.com/DimitrisPapail/status/1921271493574709749"
+    selected: y
+
+  - title: "Translation Equivariant Transformer Neural Processes"
+    authors: "Matthew Ashman, Cristiana Diaconu, <b>Junhyuck Kim</b>, Lakee Sivaraya, Stratis Markou, James Requeima, Wessel P. Bruinsma, Richard E. Turner"
+    venue: "ICML 2024"
+    paper_pdf: "https://arxiv.org/abs/2406.12409"
+    selected: y
+
+blogposts:
+  - title: "Gemini Embedding As A Universal Multimodal Encoder for Open LLMs"
+    venue: "2026"
+    blog: "https://kangwooklee.com/blogs/gemini_embedding_as_universal_multimodal_encoder_for_LLMs.html"
+    code: "https://github.com/krafton-ai/Can-Gemini-Embeddings-Be-a-Multimodal-Encoder-for-LLMs-"
+    twitter: "https://x.com/jhyuckkim/status/2033714167103025261?s=20"
+
+  - title: "Building Reasoning Mode Selection for A.X K1"
+    venue: "2026"
+    blog: "/blog/reasoning-mode-selection"
+    paper_pdf: "https://arxiv.org/abs/2601.09200"
+    twitter: "https://x.com/Kangwook_Lee/status/2009457008727003585?s=20"
+
+  - title: "Continual Post-Training of LLMs via Offline GRPO for Mathematical Reasoning"
+    venue: "2025"
+    blog: "https://www.krafton.ai/blog/posts/2025-07-28-llm_post_training/grpo-en.html"
+    code: "https://github.com/krafton-ai/Offline-GRPO"
+    twitter: "https://x.com/Kangwook_Lee/status/1949935551701786733"
