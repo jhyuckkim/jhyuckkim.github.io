@@ -1,4 +1,16 @@
 papers:
+  - title: "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games"
+    authors: "Dongmin Park*†, Minkyu Kim*†, Beongjun Choi*†, <b><u>Junhyuck Kim†</u></b>, Keon Lee†, Jonghyun Lee†, Inkyu Park†, Byeong-Uk Lee†, Jaeyoung Hwang†, Jaewoo Ahn†, Ameya S. Mahabaleshwarkar, Bilal Kartal, Pritam Biswas, Yoshi Suhara, Kangwook Lee, Jaewoong Cho"
+    venue: "Preprint, 2025"
+    paper_pdf: "https://arxiv.org/abs/2506.03610"
+    selected: y
+
+  - title: "Alignment as Distribution Learning: Your Preference Model is Explicitly a Language Model"
+    authors: "Jihun Yun*, Juno Kim*, Jongho Park, <b><u>Junhyuck Kim</u></b>, Jongha Jon Ryu, Jaewoong Cho, Kwang-Sung Jun"
+    venue: "Preprint, 2025"
+    paper_pdf: "https://arxiv.org/abs/2506.01523"
+    selected: y
+
   - title: "Lexico: Extreme KV Cache Compression via Sparse Coding over Universal Dictionaries"
     authors: "<b><u>Junhyuck Kim</u></b>, Jongho Park, Jaewoong Cho, Dimitris Papailiopoulos"
     venue: "<b><u>ICML 2025</u></b>; ICLR 2025 SLLM Workshop Spotlight"
