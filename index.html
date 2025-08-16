@@ -6,21 +6,21 @@ layout: default
   <h4>About</h4>
     <p>
       I am a research scientist at 
-      <a href="https://www.krafton.ai/">KRAFTON AI</a>, led by 
-      <a href="https://kangwooklee.com/">Kangwook Lee</a>. I am also fortunate to 
-      collaborate with <a href="https://papail.io/">Dimitris Papailiopoulos</a> 
+      <a href="https://www.krafton.ai/" target="_blank">KRAFTON AI</a>, led by 
+      <a href="https://kangwooklee.com/" target="_blank">Kangwook Lee</a>. I am also fortunate to 
+      collaborate with <a href="https://papail.io/" target="_blank">Dimitris Papailiopoulos</a> 
       on exciting research projects.
     </p>
     <p>
-      Previously, I was a Master’s student in the <a href="https://mlg.eng.cam.ac.uk/">Machine Learning Group</a> at Cambridge, where I was supervised by 
-      <a href="https://rich-turner-group.github.io/">Richard Turner</a>.
+      Previously, I was a Master's student in the <a href="https://mlg.eng.cam.ac.uk/" target="_blank">Machine Learning Group</a> at Cambridge, where I was supervised by 
+      <a href="https://rich-turner-group.github.io/" target="_blank">Richard Turner</a>.
     </p>
 </div>
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
   <h4>Publications</h4>
-  <!-- <p> (*: Equal contribution) </p> -->
+  <p>(* Equal contribution, † Core contribution)</p>
   <div class="tab-content">
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
@@ -53,27 +53,35 @@ layout: default
               {% endif %}
               <div class="paper-buttons">
                 {% if paper.paper_pdf %}
-                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank">Paper</a>
+                  <a class="button" href="{{ paper.paper_pdf }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Paper</a>
                 {% endif %}
 
                 {% if paper.project_page %}
-                  <a class="button" href="{{ paper.project_page }}" target="_blank">Project</a>
+                  <a class="button" href="{{ paper.project_page }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Project</a>
+                {% endif %}
+
+                {% if paper.blog %}
+                  <a class="button" href="{{ paper.blog }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Blog</a>
                 {% endif %}
 
                 {% if paper.slides %}
-                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Slides</a>
                 {% endif %}
 
                 {% if paper.poster %}
-                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Poster</a>
                 {% endif %}
 
                 {% if paper.video %}
-                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                  <a class="button" href="{{ paper.video }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Video</a>
                 {% endif %}
 
                 {% if paper.code %}
-                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                  <a class="button" href="{{ paper.code }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Code</a>
+                {% endif %}
+
+                {% if paper.twitter %}
+                  <a class="button" href="{{ paper.twitter }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">𝕏</a>
                 {% endif %}
               </div>
             </div>
@@ -97,23 +105,23 @@ layout: default
               <p><i>{{ paper.venue }}</i></p>
               <div class="paper-buttons">
                 {% if paper.paper_pdf %}
-                  <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+                  <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank" style="min-width: 80px;">Paper</a>
                 {% endif %}
 
                 {% if paper.slides %}
-                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+                  <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank" style="min-width: 80px;">Slides</a>
                 {% endif %}
 
                 {% if paper.poster %}
-                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+                  <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank" style="min-width: 80px;">Poster</a>
                 {% endif %}
 
                 {% if paper.video %}
-                  <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+                  <a class="button" href="{{ paper.video }}" target="_blank" style="min-width: 80px;">Video</a>
                 {% endif %}
 
                 {% if paper.code %}
-                  <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+                  <a class="button" href="{{ paper.code }}" target="_blank" style="min-width: 80px;">Code</a>
                 {% endif %}
               </div>
             </div>
@@ -122,6 +130,27 @@ layout: default
     {% endfor %}
     </div>
 
+</div>
+
+<!-- ========== Experience ========== -->
+<div class="docs-section" id="experience">
+  <h4>Experience</h4>
+        <div class="paper">
+          <p class="title"><b>KRAFTON AI<b style="float:right;">July. 2024 - Present</b></b></p>
+          <p> Research Scienist</p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>KRAFTON AI<b style="float:right;">Jun. 2023 - Sept. 2023</b></b></p>
+          <p> Research Intern</p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>Microsoft<b style="float:right;">Jun. 2022 - Aug. 2022</b></b></p>
+          <p> Software Engineer Intern</p>
+        </div>
+        <div class="paper">
+          <p class="title"><b>Animo HealthTech<b style="float:right;">Nov. 2021 - Apr. 2022</b></b></p>
+          <p> Data Scientist Intern</p>
+        </div>
 </div>
 
 <!-- ========== Education ========== -->
@@ -134,27 +163,6 @@ layout: default
         <div class="paper">
           <p class="title"><b>University of Cambridge</b></p>
           <p> BA, Information and Computer Engineering<b style="float:right;">Oct. 2020 - Jun. 2023</b></p>
-        </div>
-</div>
-
-<!-- ========== Experience ========== -->
-<div class="docs-section" id="experience">
-  <h4>Experience</h4>
-        <div class="paper">
-          <p class="title"><b>Krafton<b style="float:right;">July. 2024 - Present</b></b></p>
-          <p> AI Research Scienist</p>
-        </div>
-        <div class="paper">
-          <p class="title"><b>Krafton<b style="float:right;">Jun. 2023 - Sept. 2023</b></b></p>
-          <p> AI Research Intern</p>
-        </div>
-        <div class="paper">
-          <p class="title"><b>Microsoft<b style="float:right;">Jun. 2022 - Aug. 2022</b></b></p>
-          <p> Software Engineer Intern</p>
-        </div>
-        <div class="paper">
-          <p class="title"><b>Animo HealthTech<b style="float:right;">Nov. 2021 - Apr. 2022</b></b></p>
-          <p> Data Scientist Intern</p>
         </div>
 </div>
 
