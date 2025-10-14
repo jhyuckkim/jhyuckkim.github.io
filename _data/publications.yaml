@@ -1,4 +1,12 @@
 papers:
+  - title: "Not All Bits Are Equal: Scale-Dependent Memory Optimization Strategies for Reasoning Models"
+    authors: "<b><u>Junhyuck Kim</u></b>, Ethan Ewer, Taehong Moon, Jongho Park, Dimitris Papailiopoulos"
+    venue: "Preprint, 2025"
+    paper_pdf: "https://arxiv.org/abs/2510.10964"
+    # code: "https://github.com/krafton-ai/not-all-bits-are-equal"
+    # twitter: ""
+    selected: y
+
   - title: "Continual Post-Training of LLMs via Offline GRPO for Mathematical Reasoning"
     venue: "Blogpost, 2025"
     blog: "https://krafton-ai.github.io/blog/llm_post_training_en/"
