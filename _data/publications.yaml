@@ -3,8 +3,8 @@ papers:
     authors: "<b><u>Junhyuck Kim</u></b>, Ethan Ewer, Taehong Moon, Jongho Park, Dimitris Papailiopoulos"
     venue: "Preprint, 2025"
     paper_pdf: "https://arxiv.org/abs/2510.10964"
-    # code: "https://github.com/krafton-ai/not-all-bits-are-equal"
-    # twitter: ""
+    code: "https://github.com/krafton-ai/not-all-bits-are-equal"
+    twitter: "https://x.com/DimitrisPapail/status/1978108550854382052"
     selected: y
 
   - title: "Continual Post-Training of LLMs via Offline GRPO for Mathematical Reasoning"
