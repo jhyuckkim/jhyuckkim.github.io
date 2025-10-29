@@ -16,7 +16,7 @@ papers:
 
   - title: "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games"
     authors: "Dongmin Park*†, Minkyu Kim*†, Beongjun Choi*†, <b><u>Junhyuck Kim†</u></b>, Keon Lee†, Jonghyun Lee†, Inkyu Park†, Byeong-Uk Lee†, Jaeyoung Hwang†, Jaewoo Ahn†, Ameya S. Mahabaleshwarkar, Bilal Kartal, Pritam Biswas, Yoshi Suhara, Kangwook Lee, Jaewoong Cho"
-    venue: "Preprint, 2025"
+    venue: "EMNLP 2025 Wordplay Workshop Outstanding"
     paper_pdf: "https://arxiv.org/abs/2506.03610"
     code: "https://github.com/krafton-ai/Orak"
     twitter: "https://x.com/Kangwook_Lee/status/1930654918576111999"
