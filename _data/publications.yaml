@@ -36,7 +36,7 @@ papers:
     selected: y
 
 blogposts:
-  - title: "추론모드 선택 기술 개발기"
+  - title: "SKT A.X K1 추론모드 선택 기술 개발기"
     venue: "2026"
     blog: "https://techportal.sk.com/ai-foundation/news/31IegUOYQKipdnby5OTybA"
     paper_pdf: "https://github.com/SKT-AI/A.X-K1/blob/main/A_X_Tech_Report.pdf"
