@@ -132,6 +132,38 @@ layout: default
 
 </div>
 
+<!-- ========== BLOG POSTS ========== -->
+<div class="docs-section" id="blogposts">
+  <h4>Blog Posts</h4>
+  <div class="tab-content">
+    <div class="tab-pane active" id="blogposts-list">
+      {% for post in site.data.publications.blogposts %}
+        <div class="paper">
+          <div class="row">
+            <div class="twelve columns">
+              <p class="title"><b>{{ post.title }}</b></p>
+              <p>{{ post.venue }}</p>
+              <div class="paper-buttons">
+                {% if post.blog %}
+                  <a class="button" href="{{ post.blog }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Blog</a>
+                {% endif %}
+
+                {% if post.code %}
+                  <a class="button" href="{{ post.code }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Code</a>
+                {% endif %}
+
+                {% if post.twitter %}
+                  <a class="button" href="{{ post.twitter }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">𝕏</a>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
 <!-- ========== Experience ========== -->
 <div class="docs-section" id="experience">
   <h4>Experience</h4>

@@ -1,22 +1,15 @@
 papers:
   - title: "Not All Bits Are Equal: Scale-Dependent Memory Optimization Strategies for Reasoning Models"
     authors: "<b><u>Junhyuck Kim</u></b>, Ethan Ewer, Taehong Moon, Jongho Park, Dimitris Papailiopoulos"
-    venue: "Preprint, 2025"
+    venue: "<b><u>ICLR 2026</u></b>; NeurIPS 2025 ER Workshop Spotlight"
     paper_pdf: "https://arxiv.org/abs/2510.10964"
-    code: "https://github.com/krafton-ai/not-all-bits-are-equal"
+    # code: "https://github.com/krafton-ai/not-all-bits-are-equal"
     twitter: "https://x.com/DimitrisPapail/status/1978108550854382052"
-    selected: y
-
-  - title: "Continual Post-Training of LLMs via Offline GRPO for Mathematical Reasoning"
-    venue: "Blogpost, 2025"
-    blog: "https://krafton-ai.github.io/blog/llm_post_training_en/"
-    code: "https://github.com/krafton-ai/Offline-GRPO"
-    twitter: "https://x.com/Kangwook_Lee/status/1949935551701786733"
     selected: y
 
   - title: "Orak: A Foundational Benchmark for Training and Evaluating LLM Agents on Diverse Video Games"
     authors: "Dongmin Park*†, Minkyu Kim*†, Beongjun Choi*†, <b><u>Junhyuck Kim†</u></b>, Keon Lee†, Jonghyun Lee†, Inkyu Park†, Byeong-Uk Lee†, Jaeyoung Hwang†, Jaewoo Ahn†, Ameya S. Mahabaleshwarkar, Bilal Kartal, Pritam Biswas, Yoshi Suhara, Kangwook Lee, Jaewoong Cho"
-    venue: "EMNLP 2025 Wordplay Workshop Outstanding"
+    venue: "<b><u>ICLR 2026</u></b>; EMNLP 2025 Wordplay Workshop Outstanding Paper"
     paper_pdf: "https://arxiv.org/abs/2506.03610"
     code: "https://github.com/krafton-ai/Orak"
     twitter: "https://x.com/Kangwook_Lee/status/1930654918576111999"
@@ -24,7 +17,7 @@ papers:
 
   - title: "Alignment as Distribution Learning: Your Preference Model is Explicitly a Language Model"
     authors: "Jihun Yun*, Juno Kim*, Jongho Park, <b><u>Junhyuck Kim</u></b>, Jongha Jon Ryu, Jaewoong Cho, Kwang-Sung Jun"
-    venue: "Preprint, 2025"
+    venue: "ICML 2025 MoFA Workshop"
     paper_pdf: "https://arxiv.org/abs/2506.01523"
     selected: y
 
@@ -41,3 +34,10 @@ papers:
     venue: "<b><u>ICML 2024</u></b>"
     paper_pdf: "https://arxiv.org/abs/2406.12409"
     selected: y
+
+blogposts:
+  - title: "Continual Post-Training of LLMs via Offline GRPO for Mathematical Reasoning"
+    venue: "2025"
+    blog: "https://krafton-ai.github.io/blog/llm_post_training_en/"
+    code: "https://github.com/krafton-ai/Offline-GRPO"
+    twitter: "https://x.com/Kangwook_Lee/status/1949935551701786733"
