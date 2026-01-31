@@ -144,12 +144,12 @@ layout: default
               <p class="title"><b>{{ post.title }}</b></p>
               <p>{{ post.venue }}</p>
               <div class="paper-buttons">
-                {% if post.paper_pdf %}
-                  <a class="button" href="{{ post.paper_pdf }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Paper</a>
-                {% endif %}
-
                 {% if post.blog %}
                   <a class="button" href="{{ post.blog }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Blog</a>
+                {% endif %}
+
+                {% if post.paper_pdf %}
+                  <a class="button" href="{{ post.paper_pdf }}" target="_blank" style="width: 80px; text-align: center; display: inline-block;">Paper</a>
                 {% endif %}
 
                 {% if post.code %}
